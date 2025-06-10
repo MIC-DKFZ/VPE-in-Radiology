@@ -1,0 +1,33 @@
+{
+  "PadChestGRTrainDataset": {
+    "metadata_file": "/path/to/BIMCV-Padchest-GR/master_table.csv",
+    "images_dir": "/path/to/BIMCV-Padchest-GR/Padchest_GR_files/PadChest_GR",
+    "grounded_reports": "/path/to/BIMCV-Padchest-GR/grounded_reports_20240819.json"
+  },
+  "PadChestGRValDataset": {
+    "metadata_file": "/path/to/BIMCV-Padchest-GR/master_table.csv",
+    "images_dir": "/path/to/BIMCV-Padchest-GR/Padchest_GR_files/PadChest_GR",
+    "grounded_reports": "/path/to/BIMCV-Padchest-GR/grounded_reports_20240819.json"
+  },
+  "PadChestGRTestDataset": {
+    "metadata_file": "/path/to/BIMCV-Padchest-GR/master_table.csv",
+    "images_dir": "/path/to/BIMCV-Padchest-GR/Padchest_GR_files/PadChest_GR",
+    "grounded_reports": "/path/to/BIMCV-Padchest-GR/grounded_reports_20240819.json"
+  },
+  "JSRTDataset": {
+    "metadata_file": "/path/to/JSRT/Clinical_Information/CLNDAT_EN.txt",
+    "images_dir": "/path/to/JSRT/images"
+  },
+  "NIH14Dataset": {
+    "metadata_file": "/path/to/nih14/BBox_List_2017.csv",
+    "images_dir": "/path/to/nih14/"
+  },
+  "VinDrCXRTrainDataset": {
+    "metadata_file": "/path/to/physionet.org/files/vindr-cxr/1.0.0/annotations/annotations_train.csv",
+    "images_dir": "/path/to/physionet.org/files/vindr-cxr/1.0.0/pngs/train/"
+  },
+  "VinDrCXRTestDataset": {
+    "metadata_file": "/path/to/physionet.org/files/vindr-cxr/1.0.0/annotations/annotations_test.csv",
+    "images_dir": "/path/to/physionet.org/files/vindr-cxr/1.0.0/pngs/test/"
+  }
+}
